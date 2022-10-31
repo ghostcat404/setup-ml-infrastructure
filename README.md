@@ -13,7 +13,7 @@ For MacOS you can install ansible via python `pip3 install ansible`
 
     Example for K8S setup:
 
-    ```toml
+    ```
     [masters]
     master ansible_host=<hostIP_1> ansible_user=root
     [workers]
@@ -21,8 +21,7 @@ For MacOS you can install ansible via python `pip3 install ansible`
     worker2 ansible_host=<hostIP_3> ansible_user=root
     [all:vars]
     ansible_python_interpreter=/usr/bin/python3
-
     ```
 
->[!WARNING]
+> :warning:
 >The minimal hosts file should contain [masters] section and [all:vars] section from example
