@@ -24,5 +24,5 @@ For MacOS you can install ansible via python `pip3 install ansible`
 
     ```
 
-> [!NOTE]
-> The minimal hosts file should contain [masters] section and [all:vars] section from example
+>[!WARNING]
+>The minimal hosts file should contain [masters] section and [all:vars] section from example
