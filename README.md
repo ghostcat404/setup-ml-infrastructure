@@ -13,7 +13,7 @@ For MacOS you can install ansible via python `pip3 install ansible`
 
     Example for K8S setup:
 
-    ```
+    ```text
     [masters]
     master ansible_host=<hostIP_1> ansible_user=root
     [workers]
@@ -24,4 +24,16 @@ For MacOS you can install ansible via python `pip3 install ansible`
     ```
 
 > :warning:
->The minimal hosts file should contain [masters] section and [all:vars] section from example
+>The minimal working hosts file should contain **[masters]** section and **[all:vars]** section from example
+
+2. 
+
+## TODO list
+
+- [ ] nginx as a reverse proxy
+- [ ] Jupyter HUB + conda
+- [ ] MLFlow
+- [ ] Airflow
+- [ ] Hadoop File System
+- [ ] Spark + Pyspark
+- [ ] K8S
